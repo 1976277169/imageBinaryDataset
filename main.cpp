@@ -2,7 +2,7 @@
 
 void main()
 {
-	std::string filefolder = "C:\\Users\\Leo\\Desktop\\Samples\\train";
+	std::string filefolder = "C:\\Samples\\train";
 	BinaDataset binData;
 	std::vector<std::string> fileLists = binData.getFileLists(filefolder); // load file name
 	
@@ -11,6 +11,6 @@ void main()
 	
 	std::vector<int> image_labels(size_list, 0);  // generate lables, here are all 0
 	
-	std::string binfile = "C:\\Users\\Leo\\Desktop\\Samples\\train.bin";
+	std::string binfile = "C:\\Samples\\train.bin";
 	binData.images2BinaryFile( filefolder, fileLists, image_labels, binfile );
 }
