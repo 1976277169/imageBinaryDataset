@@ -1,4 +1,4 @@
-#include "CrackBinaryDataset.h"
+#include "BinaryDataset.h"
 
 void main()
 {
