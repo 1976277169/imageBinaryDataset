@@ -66,13 +66,13 @@ for ( int i=0; i<count_class_k; i++ )
 
 到这里，已经制作好了二进制数据集，我很懒，想直接基于`tensorflow/models/image/cifar10`模块的源码跑我定义的数据集，想想只要跟`cifar10`数据集类似，那肯定没什么问题，下面是官网上下载的`cifar-10-binary.tar`解压后内容：
 
-![cifar.rar](http://img.blog.csdn.net/20160304122224628)
+![cifar.rar](https://img-blog.csdn.net/20160304122224628)
 
 这份数据集比较大，训练样本有`50000`，测试样本`10000`（我的数据集并没有这么大，但是又有什么关系呢！）。
 
 看，这是我的数据集：
 
-![cifar2](http://img.blog.csdn.net/20160304122537239)
+![cifar2](https://img-blog.csdn.net/20160304122537239)
 
 是不是很迷你~
 
@@ -80,4 +80,6 @@ for ( int i=0; i<count_class_k; i++ )
 
 献上运行截图（训练测试集有`5196`张样本，所以`5196*0.4 = 2078`）：
 
-![run](http://img.blog.csdn.net/20160304123542258)
+![run](https://img-blog.csdn.net/20160304123542258)
+
+
